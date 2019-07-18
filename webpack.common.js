@@ -23,6 +23,10 @@ module.exports = {
         ]
       },
       {
+        test: /\.(woff(2)?|ttf|eot|otf|svg)(\?v=\d+\.\d+\.\d+)?$/,
+        use : ['file-loader']
+      },
+      {
         test: /\.scss$/,
         use: [
           MiniCssExtractPlugin.loader,
