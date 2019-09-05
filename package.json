@@ -38,5 +38,8 @@
   },
   "browserslist": [
     "last 2 versions"
-  ]
+  ],
+  "dependencies": {
+    "socket.io-client": "^2.2.0"
+  }
 }
